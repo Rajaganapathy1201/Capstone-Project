@@ -1,5 +1,5 @@
 **Files relevant to this project :**
-1. Readme.md
+1. README.md
 2. extraction.ipynb
 3. latest.py
 
