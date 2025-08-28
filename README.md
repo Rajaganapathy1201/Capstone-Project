@@ -5,7 +5,7 @@
 
 
 📊 **PhonePe Pulse – Streamlit + MySQL Project**
-📌 **Overview:**
+📌 **Overview**
 
 This project is a beginner-friendly data visualization web app built with Streamlit and connected to a MySQL database containing PhonePe Pulse data.
 
@@ -33,7 +33,7 @@ This project is ideal for students, beginners, and analysts who want to learn ho
 
 🌍 Choropleth Map of India showing registered users by state
 
-📚 **Covers 6 Case Studies:**
+📚 **Covers 6 Case Studies**
 
     1. Transaction Count by State
 
@@ -62,25 +62,25 @@ top_user → Registered users across states
 
 🛠 **Requirements**
 
-Python 3.x
+--> Python 3.x
 
-MySQL Server (with PhonePe dataset loaded)
+--> MySQL Server (with PhonePe dataset loaded)
 
-Python Libraries:
+--> Python Libraries:
 
-streamlit → for web app
+    # streamlit → for web app
 
-pandas → for data handling
+    # pandas → for data handling
 
-sqlalchemy & pymysql → MySQL connection
+    # sqlalchemy & pymysql → MySQL connection
 
-plotly → interactive charts
+    # plotly → interactive charts
 
-requests → fetch India GeoJSON for map
+    # requests → fetch India GeoJSON for map
 
-reportlab → export reports (optional)
+    # reportlab → export reports (optional)
 
-Install dependencies:
+**Install dependencies**
 
 pip install streamlit pandas sqlalchemy pymysql plotly requests reportlab
 
