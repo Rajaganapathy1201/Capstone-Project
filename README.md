@@ -1,4 +1,4 @@
-Files relevant to this project :
+**Files relevant to this project :**
 1. Readme.md
 2. extraction.ipynb
 3. latest.py
