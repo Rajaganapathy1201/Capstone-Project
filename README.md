@@ -58,30 +58,6 @@ top_trans_df → Top states/districts by transaction count
 
 top_user → Registered users across states
 
-🔹 Example schema:
-
-CREATE TABLE agg_trans (
-    State VARCHAR(50),
-    Year INT,
-    Quater INT,
-    Transacion_type VARCHAR(50),
-    Transacion_count BIGINT,
-    Transacion_amount BIGINT
-);
-
-CREATE TABLE top_trans_df (
-    State VARCHAR(50),
-    Year INT,
-    Quater INT,
-    Transaction_count BIGINT
-);
-
-CREATE TABLE top_user (
-    State VARCHAR(50),
-    Year INT,
-    Quater INT,
-    Registered_Users BIGINT
-);
 
 
 🛠 **Requirements**
@@ -111,25 +87,19 @@ pip install streamlit pandas sqlalchemy pymysql plotly requests reportlab
 
 🚀 **How to Run**
 
-1. Clone/download the project folder:
-
-git clone https://github.com/your-username/phonepe-pulse-project.git
-cd phonepe-pulse-project
-
+1. Clone/download the project folder
 
 2. Ensure MySQL server is running and PhonePe tables are created.
 
-3. Update MySQL credentials in app.py:
+3. Update MySQL credentials
 
 engine = create_engine("mysql+pymysql://username:password@localhost:3306/phonepe")
 
+4. Ensure Sql queries are created and Stream lit codes are done.
+   
+5. Run the Streamlit app
 
-4. Run the Streamlit app:
-
-streamlit run app.py
-
-
-5. The app will open at: http://localhost:8501
+6. The app will open at: http://localhost:8501
    
 
 📊 **Output Snapshots**
@@ -152,7 +122,7 @@ streamlit run app.py
 
 3. How to use Plotly for interactive data visualization
 
-4. How to implement India maps with GeoJSON
+4. How to implement India maps(2d) with GeoJSON
 
 5. How to structure a beginner-friendly data project
 
